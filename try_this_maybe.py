@@ -13,7 +13,7 @@ if not cap.isOpened():
     exit()
 
 # Load YOLO model
-model = YOLO("./weights/yolov8l.pt")
+model = YOLO("yolov8n.pt")
 
 # Add GPU support
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
